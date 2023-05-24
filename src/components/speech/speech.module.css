@@ -1,0 +1,67 @@
+.speech {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    max-width: 100vw;
+    max-height: 80vh;
+    background-color: #fff;
+  }
+  .speech__lottie {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    max-width: 100vw;
+    max-height: 50vh;
+  }
+  .speech__lottie > img {
+    width: 50vw;
+    height: 50vh;
+    max-width: 50vw;
+    max-height: 100vh;
+    margin: auto;
+  }
+  .speech__lottie__video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .speech__text {
+    width: 100vw;
+    max-width: 100vw;
+    height: 50vh;
+    max-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .speech__text__title {
+    width: 50vw;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .speech__text__title__small {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .button2 {
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ec264e, #6386ef);
+    width: 200px;
+    height: 60px;
+    margin-top: 5rem;
+    border: 1px;
+    color: white;
+    font-size: large;
+    padding: 2rem;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  

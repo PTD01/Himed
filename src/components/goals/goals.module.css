@@ -1,0 +1,47 @@
+.goals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    max-width: 100vw;
+    max-height: 80vh;
+    background-color: #fff;
+    padding-left: 4rem;
+  }
+  .goals__lottie {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+    max-width: 100vw;
+    max-height: 80vh;
+
+    
+  }
+  .goals__lottie > img {
+    width: 100%;
+    height: 100vh;
+    max-width: 50vw;
+    max-height: 100vh;
+  }
+  .goals__text {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 6rem;
+
+  }
+  .goals__text__title {
+    width: 50vw;
+    font-size: 2rem;
+
+  }
+  .goals__text__title__small {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  

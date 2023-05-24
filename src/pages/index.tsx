@@ -1,18 +1,29 @@
 import React from "react";
+import Landing from "../components/landing/Landing";
+import Goals from "../components/goals/Goals";
+import Programs from "../components/programs/Programs";
+import Value from "../components/value/Value";
+import Space from "../components/space/Space";
+import Speech from "../components/speech/Speech";
+import Success from "../components/success/Success";
+import Gallery from "../components/gallery/Gallery";
+import More from "../components/more/More";
+import Contact from "../components/contact/Contact";
 
 function index() {
   return (
     <div>
-      <nav
-        className="items-center hover:
-      bg-neutral text-neutral-content/80 p-4 px-12 flex justify-between transition-all"
-      >
+      <nav className="items-center hover: bg-slate-900 text-neutral-content/80 p-4 px-12 flex justify-between transition-all">
         <div className="text-primary text-4xl font-bold italic uppercase tracking-wide ">
-          logo
+          <img
+            src="https://res.cloudinary.com/djkf4l52i/image/upload/v1669648173/WhatsApp_Image_2022-10-30_at_07.24.59-removebg-preview_gqksmk.png"
+            alt=""
+            width="20%"
+          />
         </div>
         <div className="flex gap-4">
           <a href="#" className="btn">
-            Our goals
+            Programs
           </a>
           <a href="#" className="btn ">
             Programs
@@ -25,26 +36,17 @@ function index() {
           </a>
         </div>
       </nav>
-
-      <h1 className="font-bold text-4xl">Hello</h1>
-      <button
-        data-tip="please don't click me"
-        className="tooltip p-2 border rounded-xl hover:bg-primary-focus active:shadow-none transition-all duration-300 hover:shadow-xl bg-primary text-primary-content px-8"
-      >
-        click
-      </button>
-
-      <button className="btn btn-primary normal-case btn-outline">click</button>
-
-      <div className="chat chat-start">
-        <div className="chat-bubble">
-          It's over Anakin, <br />I have the high ground.
-        </div>
-      </div>
-      <div className="chat chat-end">
-        <div className="chat-bubble">You underestimate my power!</div>
-      </div>
-      <input type="text" className="input input-bordered w-full mt-4" />
+      <Landing />
+      <Goals />
+      <Programs />
+      <Value />
+      <Space />
+      <Speech />
+      <Space />
+      <Success />
+      <Gallery />
+      <More />
+      <Contact />
     </div>
   );
 }
