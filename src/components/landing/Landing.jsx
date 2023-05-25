@@ -19,12 +19,17 @@ function Landing() {
             </span>
             and Ingineers
           </div>
+          <br />
           <div className={styles.landing__filter__title__button}>
-            <button className={styles.button}>Start the enrollment</button>
+            <button className="btn btn-primary rounded-lg">
+              Start the enrollment
+            </button>
           </div>
-          <div className={styles.landing__filter__title__down}>SCROLLDOWN</div>
+          <div></div>
         </div>
-        <div className={styles.landing__filter__lottie}></div>
+        <div className={styles.landing__filter__lottie}>
+          <img src={"/../../../images/blanding.gif"} />
+        </div>
       </div>
     </div>
   );

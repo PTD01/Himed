@@ -6,7 +6,7 @@ function Gallery() {
     <div className={styles.gallery}>
       <div className={styles.gallery__text}>
         <div className={styles.gallery__text__title}>
-          <h1>Our Programs</h1>
+          <h1>Our Gallery</h1>
         </div>
         <div className={styles.gallery__text__title__small}>
           <p>One Course with full Force!</p>
@@ -27,7 +27,12 @@ function Gallery() {
           <button className="btn btn-primary btn-l rounded-lg">Gallery</button>
         </div>
       </div>
-      <div className={styles.gallery__lottie}></div>
+      <div className={styles.gallery__lottie}>
+        <img
+          src="https://res.cloudinary.com/djkf4l52i/image/upload/v1681748169/clip-edit-photo_pe0nnk.png"
+          alt=""
+        />
+      </div>
     </div>
   );
 }
