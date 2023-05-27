@@ -9,11 +9,12 @@ import Success from "../components/success/Success";
 import Gallery from "../components/gallery/Gallery";
 import More from "../components/more/More";
 import Contact from "../components/contact/Contact";
+import Header from "../components/Header/Header";
 
 function index() {
   return (
     <div>
-      <nav className="items-center fixed top-0 left-0 right-0 hover: bg-slate-900 text-neutral-content/80 p-4 px-12 flex justify-between transition-all">
+      {/* <nav className="items-center fixed top-0 left-0 right-0 hover: bg-slate-900 text-neutral-content/80 p-4 px-12 flex justify-between transition-all">
         <div className="text-primary text-4xl font-bold italic uppercase tracking-wide ">
           <img
             src="https://res.cloudinary.com/djkf4l52i/image/upload/v1669648173/WhatsApp_Image_2022-10-30_at_07.24.59-removebg-preview_gqksmk.png"
@@ -35,8 +36,11 @@ function index() {
             Diaspora
           </a>
         </div>
-      </nav>
+      </nav> */}
+      <Header />
       <Landing />
+
+      {/* 
       <Goals />
       <Programs />
       <Value />
@@ -46,7 +50,7 @@ function index() {
       <Success />
       <Gallery />
       <More />
-      <Contact />
+      <Contact /> */}
     </div>
   );
 }
