@@ -39,8 +39,6 @@ function index() {
       </nav> */}
       <Header />
       <Landing />
-
-      {/* 
       <Goals />
       <Programs />
       <Value />
@@ -48,9 +46,19 @@ function index() {
       <Speech />
       <Space />
       <Success />
+      {/* <Value /> */}
+      {/* 
+     
+     
+     
+      
+      <Speech />
+      <Space />
+      <Success />
       <Gallery />
       <More />
       <Contact /> */}
+      <div className="h-48"></div>
     </div>
   );
 }

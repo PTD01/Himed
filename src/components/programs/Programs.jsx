@@ -1,48 +1,98 @@
 import React from "react";
+import { motion } from "framer-motion";
 import styles from "../programs/programs.module.css";
 
 function Programs() {
   return (
-    <div className={styles.programs}>
-      <div className={styles.programs__text}>
-        <div className={styles.programs__text__title}>
-          <h1>Our Programs</h1>
+    <>
+      <div
+        id="program"
+        className="bg-[#ec264e]  w-[100vw] h-auto md:h-[90vh] px-10 flex items-center justify-between flex-wrap py-14"
+      >
+        <div className="w-[100vw] md:w-[50%]  text-white">
+          <div className=" ">
+            <h1 className="text-3xl md:text-4xl pt-2 font-bold">
+              Our Programs
+            </h1>
+          </div>
+          <div className="text-white py-1">
+            <p>One Course with full Force!</p>
+          </div>
+          <div>
+            <p className="text-justify">
+              Our distinguished faculty members, who have won awards in their
+              specialized fields, teach Physics, Chemistry, and Biology. We have
+              developed our own curriculum, books, and study materials to suit
+              our needs. Our philosophy is that teaching concepts in students
+              native languages facilitates deeper comprehension. Our innovative
+              curriculum, individualized training, and assessment methods have
+              led to our high national ranking.
+            </p>
+          </div>
         </div>
-        <div className={styles.programs__text__title__small}>
-          <p>One Course with full Force!</p>
-        </div>
-        <div>
-          <p>
-            Our distinguished faculty members, who have won awards in their
-            specialized fields, teach Physics, Chemistry, and Biology. We have
-            developed our own curriculum, books, and study materials to suit our
-            needs. Our philosophy is that teaching concepts in students' native
-            languages facilitates deeper comprehension. Our innovative
-            curriculum, individualized training, and assessment methods have led
-            to our high national ranking.
-          </p>
+        <div className=" w-100 md:w-[50%] ">
+          <div className="w-full flex justify-center items-center">
+            <motion.div
+              // whileInView={{ x: [100, -50], opacity: [0, 1] }}
+              // transition={{ duration: 0.5 }}
+              className=" w-[300px] md:w-[350px]  bg-cover bg-no-repeat rounded mt-10 md:mt-0"
+            >
+              <div className="card__header"></div>
+              <div className="flex flex-col h-[180px] card__bottom ps-10 pt-5">
+                <h2 className="text-lg ">Life hack</h2>
+                <p>How to park your car at your garage?</p>
+                <div className="flex justify-end mt-4">
+                  <button className="btn btn-md bg-[#2196F3] border-0 me-10 ">
+                    Learn now!
+                  </button>
+                </div>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </div>
-      <div className={styles.programs__lottie}>
-        <div className={styles.card}>
-          <div className="card glass">
-            <figure>
-              <img
-                src="https://res.cloudinary.com/djkf4l52i/image/upload/v1669324590/medecin_pps5il.jpg"
-                alt="car!"
-              />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Life hack</h2>
-              <p>How to park your car at your garage?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Learn now!</button>
+
+      {/* <div className={styles.programs}>
+        <div className={styles.programs__text}>
+          <div className={styles.programs__text__title}>
+            <h1>Our Programs</h1>
+          </div>
+          <div className={styles.programs__text__title__small}>
+            <p>One Course with full Force!</p>
+          </div>
+          <div>
+            <p>
+              Our distinguished faculty members, who have won awards in their
+              specialized fields, teach Physics, Chemistry, and Biology. We have
+              developed our own curriculum, books, and study materials to suit
+              our needs. Our philosophy is that teaching concepts in students
+              native languages facilitates deeper comprehension. Our innovative
+              curriculum, individualized training, and assessment methods have
+              led to our high national ranking.
+            </p>
+          </div>
+        </div>
+        <div className={styles.programs__lottie}>
+          <div className={styles.card}>
+            <div className="card glass">
+              <figure>
+                <img
+                  src="https://res.cloudinary.com/djkf4l52i/image/upload/v1669324590/medecin_pps5il.jpg"
+                  alt="car!"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">Life hack</h2>
+                <p>How to park your car at your garage?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Learn now!</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </div> */}
+    </>
   );
 }
 

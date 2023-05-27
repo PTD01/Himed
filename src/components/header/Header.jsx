@@ -2,6 +2,7 @@ import Image from "next/image";
 import { BiMenu } from "react-icons/bi";
 import { MdClose } from "react-icons/md";
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 
 const Header = () => {
   const [mounted, setMounted] = useState(false);
@@ -46,22 +47,22 @@ const Header = () => {
         className={`z-[100]  md:flex md:items-start md:text-center pt-2 md:z-auto md:static absolute bg-white text-gray-600 w-full left-0 md:w-auto md:py-0  md:pl-0 md:opacity-100     transition-all ease-in duration-500 ${showMenu}   border-gray-200 font-bold md:m-0 md:pt-0`}
       >
         <li className="mx-4 my-6 md:my-0  ">
-          <a
-            href={`#`}
+          <Link
+            href={`#features`}
             className="text-[1rem] hover:text-gray-800 duration-500"
           >
             {" "}
             Features
-          </a>
+          </Link>
         </li>
         <li className="mx-4 my-6 md:my-0">
-          <a
-            href={`#`}
+          <Link
+            href={`#whyUs`}
             className="text-[1rem] hover:text-gray-800 duration-500"
           >
             {" "}
             Why us?
-          </a>
+          </Link>
         </li>
         <li className="mx-4 my-6 md:my-0">
           <a
@@ -81,23 +82,24 @@ const Header = () => {
             Gallery
           </a>
         </li>
+
         <li className="mx-4 my-6 md:my-0">
-          <a className="text-[1rem] hover:text-gray-800 duration-500">
+          <Link
+            className="text-[1rem] hover:text-gray-800 duration-500"
+            href="#program"
+          >
             {" "}
             Contact Us
-          </a>
+          </Link>
         </li>
         <li className="mx-4 my-6 md:my-0">
-          <a className="text-[1rem] hover:text-gray-800 duration-500">
-            {" "}
-            Contact Us
-          </a>
-        </li>
-        <li className="mx-4 my-6 md:my-0">
-          <a className="text-[1rem] hover:text-gray-800 duration-500">
+          <Link
+            className="text-[1rem] hover:text-gray-800 duration-500"
+            href={`#`}
+          >
             {" "}
             Diaspora
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

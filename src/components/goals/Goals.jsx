@@ -1,10 +1,45 @@
 import React from "react";
+import { motion } from "framer-motion";
 import styles from "../goals/goals.module.css";
 
 function Goals() {
   return (
-    <div>
-      <div className={styles.goals}>
+    <div id="features">
+      <div>
+        <div className="w-full container flex justify-center items-center flex-wrap px-10 py-4">
+          <motion.div
+            whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+            transition={{ duration: 0.5 }}
+            className="w-[100%] md:w-[50%]"
+          >
+            <img
+              src="https://res.cloudinary.com/djkf4l52i/image/upload/v1669497424/mission_varxjn.svg"
+              alt="mission"
+            />
+          </motion.div>
+          <div className="w-[100%] md:w-[50%]">
+            <div className={styles.goals__text__title}>
+              <h1 className="font-bold">Our mission</h1>
+            </div>
+            <div className={styles.goals__text__title__small}>
+              <p>One Course with full Force!</p>
+            </div>
+            <div className="">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit ess/images/mission.svge
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className={styles.goals}>
         <div className={styles.goals__lottie}>
           <img
             src="https://res.cloudinary.com/djkf4l52i/image/upload/v1669497424/mission_varxjn.svg"
@@ -31,7 +66,7 @@ function Goals() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
