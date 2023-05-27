@@ -7,9 +7,9 @@ function Programs() {
     <>
       <div
         id="program"
-        className="bg-[#ec264e]  w-[100vw] h-auto md:h-[90vh] px-10 flex items-center justify-between flex-wrap py-14"
+        className="bg-[#ec264e] w-full  pt-10 flex justify-between content-start md:content-center  h-full flex-wrap  px-10 2xl:px-20 py-3"
       >
-        <div className="w-[100vw] md:w-[50%]  text-white">
+        <div className="w-full md:w-1/2 flex justify-center  flex-col text-white">
           <div className=" ">
             <h1 className="text-3xl md:text-4xl pt-2 font-bold">
               Our Programs
@@ -30,25 +30,24 @@ function Programs() {
             </p>
           </div>
         </div>
-        <div className=" w-100 md:w-[50%] ">
-          <div className="w-full flex justify-center items-center">
-            <motion.div
-              // whileInView={{ x: [100, -50], opacity: [0, 1] }}
-              // transition={{ duration: 0.5 }}
-              className=" w-[300px] md:w-[350px]  bg-cover bg-no-repeat rounded mt-10 md:mt-0"
-            >
-              <div className="card__header"></div>
-              <div className="flex flex-col h-[180px] card__bottom ps-10 pt-5">
-                <h2 className="text-lg ">Life hack</h2>
-                <p>How to park your car at your garage?</p>
-                <div className="flex justify-end mt-4">
-                  <button className="btn btn-md bg-[#2196F3] border-0 me-10 ">
-                    Learn now!
-                  </button>
-                </div>
+
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end items-center">
+          <motion.div
+            // whileInView={{ x: [100, -50], opacity: [0, 1] }}
+            // transition={{ duration: 0.5 }}
+            className=" w-[300px] md:w-[350px]  bg-cover bg-no-repeat rounded mt-10 md:mt-0  "
+          >
+            <div className="card__header"></div>
+            <div className="flex flex-col h-[180px] card__bottom ps-10 pt-5">
+              <h2 className="text-lg ">Life hack</h2>
+              <p>How to park your car at your garage?</p>
+              <div className="flex justify-end mt-4">
+                <button className="btn btn-md bg-[#2196F3] border-0 me-10 ">
+                  Learn now!
+                </button>
               </div>
-            </motion.div>
-          </div>
+            </div>
+          </motion.div>
         </div>
       </div>
 

@@ -4,8 +4,8 @@ import styles from "../value/value.module.css";
 
 function Value() {
   return (
-    <div className="w-full container flex justify-center items-center flex-wrap px-10 py-4">
-      <div className="w-[100%] md:w-[50%]">
+    <div className="w-full  pt-10 flex justify-between content-start md:content-center  h-full flex-wrap  px-10 2xl:px-20 py-3">
+      <div className="w-full md:w-1/2 ">
         <motion.img
           whileInView={{ x: [-100, 0], opacity: [0, 1] }}
           transition={{ duration: 0.5 }}
@@ -13,10 +13,9 @@ function Value() {
           alt="mission"
         />
       </div>
-      <div className="w-[100%] md:w-[45%] pt-3 md:pt-10 md:ps-6">
-        <div className="">
-          <h1 className="text-2xl md:text-3xl font-bold">Our mission</h1>
-        </div>
+      <div className="w-full md:w-1/2 flex justify-center  flex-col pt-10 md:pt-0 ">
+        <h1 className="text-2xl md:text-3xl font-bold">Our mission</h1>
+
         <div className={styles.goals__text__title__small}>
           <p>One Course with full Force!</p>
         </div>

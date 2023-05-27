@@ -6,7 +6,7 @@ function Speech() {
   return (
     <>
       <div
-        className="container flex flex-col justify-center items-center py-4"
+        className=" w-full flex-col pt-10 flex justify-between content-start md:content-center  h-full flex-wrap  px-10 2xl:px-20 py-3"
         id="whyUs"
       >
         <div className="text-3xl md:text-4xl text-center">
@@ -20,10 +20,10 @@ function Speech() {
           /> */}
           <div className="w-full flex justify-center items-center">
             <iframe
-              className="w-[350px] md:w-[600px] h-[200px] md:h-[400px]"
-              src="https://www.youtube.com/embed/WHSUHyn1fR4"
+              className="w-[300px] md:w-[600px] h-[200px] md:h-[400px] 2xl:w-[900px] 2xl:h-[600px]"
+              src="/../../../images/Hi-Med Slideshow.mp4"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
