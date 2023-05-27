@@ -41,18 +41,19 @@ function Landing() {
               </button>
             </div>
           </div>
-          <div className="text-gray-200 w-[100%] md:w-[50%] flex justify-center">
-            <motion.div
-              variants={scaleVariants}
-              whileInView={scaleVariants.whileInView}
-            >
-              <img
-                src={"/../../../images/learning.gif"}
-                className="w-[400px] md:w-[500px] block "
-                alt=""
-              />
-            </motion.div>
-          </div>
+
+          <motion.div
+            variants={scaleVariants}
+            whileInView={scaleVariants.whileInView}
+            className="text-gray-200 w-[100%] md:w-[50%] flex items-center border"
+          >
+            <img
+              src={"/../../../images/learning.gif"}
+              className="w-[400px] md:w-[300px]"
+              alt=""
+            />
+          </motion.div>
+
           <div className="md:hidden items-center justify-center w-full ">
             <button className="btn bg-[#2196F3] btn-lg rounded-lg mt-4 mx-auto block border-0">
               Start the enrollment
