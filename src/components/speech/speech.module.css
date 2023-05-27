@@ -9,6 +9,9 @@
     max-height: 80vh;
     background-color: #fff;
   }
+  .speech > button{
+    background-color: #CC0000;
+  }
   .speech__lottie {
     display: flex;
     justify-content: center;
@@ -46,6 +49,7 @@
     width: 50vw;
     font-size: 3rem;
     text-align: center;
+    padding-top: 6rem;
   }
   .speech__text__title__small {
     font-size: 1rem;

@@ -3,7 +3,6 @@
     height: 100vh;
     max-width: 100vw;
     max-height: 100vh;
-    background-image: url('../../../public/images/maths.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -11,7 +10,7 @@
   .landing__filter {
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -24,16 +23,17 @@
     padding: 3rem;
     display: flex;
     justify-content: center;
+    
     align-items: center;
     flex-direction: column;
     padding-top: 2rem;
     font-weight:normal;
-    color: white;
+    
     font-size: 3rem;
   }
   .landing__filter__titre {
     cursor: pointer;
-
+    
   }
   .landing__filter__lottie {
     flex: 1;
@@ -43,25 +43,32 @@
     padding: 3rem;
   }
   .landing__filter__lottie > img{
-    width: 100%;
-    height: 80%;
+    width: 100vw;
+    height: 100vh;
+  
 
     
   }
   .landing__filter__title__titre__students {
-    color:#2649b4;
+    color:#2196F3;
     text-decoration: underline;
     font-weight: bolder;
+    margin-left: 10px;
+    margin-right: 10px;
     }
     .students__hr {
       width: 20%;
+
     }
     .doctors__hr {
       width: 40%;
     }
     .landing__filter__title__titre__doctors {
-      color: #ed254e;
+      color: #CC0000;
       text-decoration: underline;
+      margin-right: 10px;
+      margin-left: 10px;
+
     }
     .landing__filter__title__button {
   
@@ -73,26 +80,12 @@
       display: flex;
       align-self: flex-start;
     }
-    .button {
-      border-radius: 10px;
-      background: linear-gradient(145deg, #2649b4, #6386ef);
-      width: 100%;
-      height: 60px;
-      margin-top: 5rem;
-      border: 1px;
-      color: white;
-      font-size: large;
-      padding: 2rem;
-      transition: all 0.5s;
-      cursor: pointer;
+    .landing__filter__title__button >button {
+      background-color: #2196F3;
+
+    }
+   
     
-    }
-    .button:hover {
-      background-color: #f7c2f9;
-    }
-    .landing__filter__title__down {
-      align-self: flex-start;
-      margin-top: 6rem;
-    }
+    
     
 

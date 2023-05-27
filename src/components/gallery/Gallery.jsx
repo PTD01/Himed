@@ -28,10 +28,7 @@ function Gallery() {
         </div>
       </div>
       <div className={styles.gallery__lottie}>
-        <img
-          src="https://res.cloudinary.com/djkf4l52i/image/upload/v1681748169/clip-edit-photo_pe0nnk.png"
-          alt=""
-        />
+        <img src={"/../../../images/gallery.png"} alt="" />
       </div>
     </div>
   );

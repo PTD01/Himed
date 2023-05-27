@@ -5,6 +5,9 @@ function Landing() {
     <div className={styles.landing}>
       <div className={styles.landing__filter}>
         <div className={styles.landing__filter__title}>
+          <div>
+            <img src={"/../../../images/Cardiogram.gif"} alt="" />
+          </div>
           <div className={styles.landing__filter__titre}>
             Coaching
             <span className={styles.landing__filter__title__titre__students}>
@@ -21,14 +24,13 @@ function Landing() {
           </div>
           <br />
           <div className={styles.landing__filter__title__button}>
-            <button className="btn btn-primary rounded-lg">
+            <button className="btn rounded-lg hover:bg-primary">
               Start the enrollment
             </button>
           </div>
-          <div></div>
         </div>
         <div className={styles.landing__filter__lottie}>
-          <img src={"/../../../images/blanding.gif"} />
+          <img src={"/../../../images/doctor.gif"} width={1000} height={1000} />
         </div>
       </div>
     </div>
