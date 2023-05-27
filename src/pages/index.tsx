@@ -14,29 +14,6 @@ import Header from "../components/Header/Header";
 function index() {
   return (
     <div>
-      {/* <nav className="items-center fixed top-0 left-0 right-0 hover: bg-slate-900 text-neutral-content/80 p-4 px-12 flex justify-between transition-all">
-        <div className="text-primary text-4xl font-bold italic uppercase tracking-wide ">
-          <img
-            src="https://res.cloudinary.com/djkf4l52i/image/upload/v1669648173/WhatsApp_Image_2022-10-30_at_07.24.59-removebg-preview_gqksmk.png"
-            alt=""
-            width="20%"
-          />
-        </div>
-        <div className="flex gap-4">
-          <a href="#" className="btn">
-            Programs
-          </a>
-          <a href="#" className="btn ">
-            Programs
-          </a>
-          <a href="#" className="btn ">
-            Past students
-          </a>
-          <a href="#" className="btn ">
-            Diaspora
-          </a>
-        </div>
-      </nav> */}
       <Header />
       <Landing />
       <Goals />
@@ -46,18 +23,10 @@ function index() {
       <Speech />
       <Space />
       <Success />
-      {/* <Value /> */}
-      {/* 
-     
-     
-     
-      
-      <Speech />
-      <Space />
-      <Success />
       <Gallery />
       <More />
-      <Contact /> */}
+      <Contact />
+
       <div className="h-48"></div>
     </div>
   );

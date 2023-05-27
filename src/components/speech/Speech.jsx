@@ -21,7 +21,7 @@ function Speech() {
           <div className="w-full flex justify-center items-center">
             <iframe
               className="w-[350px] md:w-[600px] h-[200px] md:h-[400px]"
-              src="https://www.youtube.com/embed/WHSUHyn1fR4"
+              src="/../../../images/Hi-Med Slideshow.mp4"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
