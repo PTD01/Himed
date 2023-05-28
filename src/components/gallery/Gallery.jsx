@@ -1,17 +1,17 @@
 import React from "react";
-import styles from "../gallery/gallery.module.css";
+import { motion } from "framer-motion";
 
 function Gallery() {
   return (
-    <div className="gallery min-h-screen flex flex-col md:flex-row justify-center items-center w-[100vw] h-[80vh]  ">
-      <div className="ps-10 flex flex-wrap  md:w-[50vw] ">
-        <div className={styles.gallery__text__title}>
+    <div className="gallery min-h-screen flex flex-col md:flex-row pt-10 md:content-center items-center w-[100vw] h-[80vh]  ">
+      <div className="ps-10 pe-10 md:pe-0 flex flex-wrap  md:w-[50vw] w-full justify-center  flex-col ">
+        <div className="text-3xl md:text-4xl font-bold">
           <h1>Our Gallery</h1>
         </div>
-        <div className={styles.gallery__text__title__small}>
-          <p>One Course with full Force!</p>
-        </div>
-        <div className=" text-left ">
+        <div className=" text-justify ">
+          <div className=" py-1">
+            <p>Pictures are worth a thousand words.</p>
+          </div>
           <p>
             Our distinguished faculty members, who have won awards in their
             specialized fields, teach Physics, Chemistry, and Biology. We have
@@ -28,8 +28,15 @@ function Gallery() {
           <button className="btn btn-primary btn-md rounded-lg">Gallery</button>
         </div>
       </div>
-      <div className="gallery__lottie flex justify-center w-[100vw] md:w-[100vw] ">
-        <img src={"/../../../images/gallery.png"} alt="" className="w-[100%]" />
+
+      <div className="w-full md:w-1/2 ">
+        <motion.img
+          whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+          transition={{ duration: 0.5 }}
+          src="/../../../images/gallery.png"
+          alt="gallery"
+          className="w-full"
+        />
       </div>
     </div>
   );
