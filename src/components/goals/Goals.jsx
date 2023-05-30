@@ -28,14 +28,19 @@ function Goals() {
           </div>
           <div className=" text-justify">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit ess/images/mission.svge cillum
-              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-              non proident, sunt in culpa qui officia deserunt mollit anim id
-              est laborum.
+              At HI-MED, our mission is to empower students and provide them
+              with the necessary tools and support to unlock their full
+              potential. <br /> Our mission extends beyond helping students
+              succeed in national exams. We are committed to instilling a sense
+              of social responsibility, ethical practice, and empathy towards
+              patients and the communities they serve. By nurturing
+              compassionate and highly competent professionals, we aim to make a
+              lasting positive impact on healthcare, engineering, and nursing
+              Join us on this journey of discovery, growth, and achievement as
+              we work together to make a meaningful difference in the world
+              through education and service. Together, let's unlock your
+              potential and pave the way for a successful and fulfilling career
+              in medicine, engineering, or nursing.
             </p>
           </div>
         </div>

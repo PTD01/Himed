@@ -14,7 +14,7 @@ function Landing() {
   };
   return (
     <>
-      <div className="bg-white w-full pt-28 md:pt-10 flex justify-between content-start md:content-center  h-full flex-wrap px-0 md:px-10 2xl:px-20 ">
+      <div className="bg-white w-full pt-28 md:pt-10 flex justify-between content-start md:content-center  h-[100vh] flex-wrap px-0 md:px-10 2xl:px-20 ">
         <div className="text-gray-800  flex flex-col justify-around w-full md:w-1/2  ">
           <div className="text-center md:text-left text-2xl md:text-4xl 2xl:text-6xl">
             <div className="mt-0 md:mt-10 leading-normal">
@@ -22,7 +22,7 @@ function Landing() {
                 <img
                   src={"/../../../images/Cardiogram.gif"}
                   alt="cardiogram"
-                  className="cardio pl-20"
+                  className="cardio md:btn-md 2xl:btn-lg rounded-lg mt-4 mx-auto block"
                 />
               </div>
               <span>Coaching</span>{" "}
@@ -38,7 +38,7 @@ function Landing() {
               <span>future</span>{" "}
               <span className="text-[#CC0000]  underline">Medical</span>{" "}
               <span className="underline text-[#2196F3]">personnels</span>{" "}
-              <span>and Ingineers</span>
+              <span>and Ingineering</span>
             </div>
           </div>
           <div className="hidden md:block ">

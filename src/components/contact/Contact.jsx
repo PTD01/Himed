@@ -3,11 +3,11 @@ import Image from "next/image";
 
 function Contact() {
   return (
-    <div>
-      <div className="hero min-h-screen bg-white">
+    <div className="">
+      <div className="hero min-h-screen bg-white h-[80vh] py-0">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center w-1/2 lg:text-left">
-            <h1 className="text-5xl font-bold">Login now!</h1>
+            <h1 className="text-5xl font-bold">Download Our App Here!</h1>
             <p className="py-6">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
@@ -23,11 +23,11 @@ function Contact() {
                   height={1000}
                 />
               </div>
-              <div className="form-control mt-6"></div>
             </div>
           </div>
         </div>
       </div>
+      <hr className="w-[80vw] m-auto" />
     </div>
   );
 }
