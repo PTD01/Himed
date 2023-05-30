@@ -38,7 +38,7 @@ function Landing() {
               <span>future</span>{" "}
               <span className="text-[#CC0000]  underline">Medical</span>{" "}
               <span className="underline text-[#2196F3]">personnels</span>{" "}
-              <span>and Ingineers</span>
+              <span>and Ingineering</span>
             </div>
           </div>
           <div className="hidden md:block ">
