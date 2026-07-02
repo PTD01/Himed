@@ -2,29 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
-*{
-    box-sizing: content-box;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    scroll-behavior: smooth;
+* {
+  box-sizing: border-box;
 }
 
-:root{
-    --bg-color: #2196F3;
-    --white-color: #fff;
-    --light-color: rgba(255, 255, 255, 0.6);
-
-   
-}
-body{
-    overflow-x: hidden;
-    font-family: 'PT Sans Narrow', sans-serif;
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+  scroll-padding-top: 4.5rem;
 }
 
+body {
+  overflow-x: hidden;
+  font-family: var(--font-inter), sans-serif;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+/* One screen per section, snaps as you scroll */
+.full-page {
+  height: 100vh;
+  height: 100dvh;
+  scroll-snap-align: start;
+}
+
+section[id] {
+  scroll-margin-top: 4.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
